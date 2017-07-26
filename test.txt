@@ -1,1 +1,93 @@
 this is my first text file>
+Win 8.1 Version 2@KHAC-HUNG MINGW64 ~ (master)
+$ cd
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 ~ (master)
+$ cd /c
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c
+$ ls
+'$AV_AVG'/                  emu8086/                ProgramData/
+'$Recycle.Bin'/             git/                    Recovery/
+'$WINDOWS.~BT'/             hiberfil.sys            resources/
+'$Windows.~WS'/             hsrv.txt                Set-up.exe*
+ app_updater.log            inetpub/                Soft/
+ asc_rdflag                 KVRT_Data/              swapfile.sys
+ AVG_Remover/               Logs/                  'System Volume Information'/
+ Boot/                      MSOCache/               tmp/
+ bootmgr                    packages/               Users/
+ BOOTNXT                    pagefile.sys            Windows/
+ BOOTSECT.BAK               payloads/               xampp/
+ deploy/                   'Program Files'/
+'Documents and Settings'@  'Program Files (x86)'/
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c
+$ cd git/
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$ ls
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$ git config --global user.name "Do Khac Hung"
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$ git config --global user.email "khachung1807@gmail.com"
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$ git clone https://github.com/khachung1807/learning_git.git
+
+Cloning into 'learning_git'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$ ls
+learning_git/
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git
+$ cd learning_git/
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$ ls
+README.md
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$ ls
+README.md  test.txt
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$ git add test.txt
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$ git commit -m "first commit" test.txt
+[master e37770d] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/khachung1807/learning_git.git
+   85ed5f5..e37770d  master -> master
+Branch master set up to track remote branch master from origin.
+
+Win 8.1 Version 2@KHAC-HUNG MINGW64 /c/git/learning_git (master)
+$
